@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "todo-app-django"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav B <rolmf85@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.2"
+celery = "^5.3.6"
+pymongo = "^4.6.2"
+redis = "^5.0.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
